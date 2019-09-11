@@ -92,10 +92,9 @@ def forward(network, x):
 
     return y
 
-
+b = 2
 network = init_network()
 x = np.array([1.0, 0.5])
 y = forward(network, x)
-a = 1
 print(y)
 
